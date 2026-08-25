@@ -53,3 +53,14 @@ dkms.conf
 
 # debug information files
 *.dwo
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+
+# Visual Studio generated folders
+ConsoleA.a231able/
