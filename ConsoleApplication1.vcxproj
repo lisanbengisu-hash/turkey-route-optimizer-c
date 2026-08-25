@@ -123,11 +123,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="data.c" />
+    <ClCompile Include="dijkstra.c" />
     <ClCompile Include="graph.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="route.c" />
+    <ClCompile Include="TSP.c" />
+    <ClCompile Include="ui.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="dijkstra.h" />
     <ClInclude Include="graph.h" />
+    <ClInclude Include="route.h" />
+    <ClInclude Include="TSP.h" />
+    <ClInclude Include="ui.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
